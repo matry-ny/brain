@@ -1,0 +1,5 @@
+D:\workspace\teach\c-sharp\BrainSolution\BrainConsoleApp\bin\Release\BrainConsoleApp.exe.config
+D:\workspace\teach\c-sharp\BrainSolution\BrainConsoleApp\bin\Release\BrainConsoleApp.exe
+D:\workspace\teach\c-sharp\BrainSolution\BrainConsoleApp\bin\Release\BrainConsoleApp.pdb
+D:\workspace\teach\c-sharp\BrainSolution\BrainConsoleApp\obj\Release\BrainConsoleApp.exe
+D:\workspace\teach\c-sharp\BrainSolution\BrainConsoleApp\obj\Release\BrainConsoleApp.pdb

@@ -2,7 +2,7 @@
 
 namespace BrainConsoleApp
 {
-    class Messages
+    public class Messages
     {
         private string helloMessage = "I am alive!!!";
 

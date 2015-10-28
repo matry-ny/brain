@@ -5,6 +5,12 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrainConsoleApp", "BrainConsoleApp\BrainConsoleApp.csproj", "{80F00D32-2F31-42AD-9C9A-399ECADF3E36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrainConsoleAppTest", "BrainConsoleAppTest\BrainConsoleAppTest.csproj", "{27A19902-0BEE-4EC6-A1D7-EF8455DF6BDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{EDD2A5EB-48DD-44CE-AEB2-3ED068E2D0AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "unit", "unit", "{D6C443CA-AE46-40C4-9AB6-1043D9B6D3BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +21,16 @@ Global
 		{80F00D32-2F31-42AD-9C9A-399ECADF3E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80F00D32-2F31-42AD-9C9A-399ECADF3E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80F00D32-2F31-42AD-9C9A-399ECADF3E36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27A19902-0BEE-4EC6-A1D7-EF8455DF6BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27A19902-0BEE-4EC6-A1D7-EF8455DF6BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27A19902-0BEE-4EC6-A1D7-EF8455DF6BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27A19902-0BEE-4EC6-A1D7-EF8455DF6BDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D6C443CA-AE46-40C4-9AB6-1043D9B6D3BD} = {EDD2A5EB-48DD-44CE-AEB2-3ED068E2D0AE}
+		{27A19902-0BEE-4EC6-A1D7-EF8455DF6BDF} = {D6C443CA-AE46-40C4-9AB6-1043D9B6D3BD}
 	EndGlobalSection
 EndGlobal
