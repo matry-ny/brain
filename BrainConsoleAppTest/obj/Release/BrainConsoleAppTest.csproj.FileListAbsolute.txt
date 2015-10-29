@@ -1,0 +1,7 @@
+D:\workspace\teach\c-sharp\BrainSolution\BrainConsoleAppTest\bin\Release\BrainConsoleAppTest.dll
+D:\workspace\teach\c-sharp\BrainSolution\BrainConsoleAppTest\bin\Release\BrainConsoleAppTest.pdb
+D:\workspace\teach\c-sharp\BrainSolution\BrainConsoleAppTest\bin\Release\BrainConsoleApp.exe
+D:\workspace\teach\c-sharp\BrainSolution\BrainConsoleAppTest\bin\Release\BrainConsoleApp.pdb
+D:\workspace\teach\c-sharp\BrainSolution\BrainConsoleAppTest\obj\Release\BrainConsoleAppTest.csprojResolveAssemblyReference.cache
+D:\workspace\teach\c-sharp\BrainSolution\BrainConsoleAppTest\obj\Release\BrainConsoleAppTest.dll
+D:\workspace\teach\c-sharp\BrainSolution\BrainConsoleAppTest\obj\Release\BrainConsoleAppTest.pdb

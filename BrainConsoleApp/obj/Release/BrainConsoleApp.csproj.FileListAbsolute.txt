@@ -3,3 +3,4 @@ D:\workspace\teach\c-sharp\BrainSolution\BrainConsoleApp\bin\Release\BrainConsol
 D:\workspace\teach\c-sharp\BrainSolution\BrainConsoleApp\bin\Release\BrainConsoleApp.pdb
 D:\workspace\teach\c-sharp\BrainSolution\BrainConsoleApp\obj\Release\BrainConsoleApp.exe
 D:\workspace\teach\c-sharp\BrainSolution\BrainConsoleApp\obj\Release\BrainConsoleApp.pdb
+D:\workspace\teach\c-sharp\BrainSolution\BrainConsoleApp\obj\Release\BrainConsoleApp.csprojResolveAssemblyReference.cache

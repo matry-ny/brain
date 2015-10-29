@@ -6,7 +6,7 @@ namespace BrainConsoleApp
     {
         static void Main(string[] args)
         {
-            var messagesClass = new Messages(); 
+            Messages messagesClass = new Messages(); 
             string message = messagesClass.getHelloMessage();
 
             Console.WriteLine(message);
