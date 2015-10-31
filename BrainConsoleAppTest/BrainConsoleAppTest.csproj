@@ -57,6 +57,7 @@
     <Compile Include="NullableTest.cs" />
     <Compile Include="LiteralsTest.cs" />
     <Compile Include="TypeConversionsTest.cs" />
+    <Compile Include="OperatorsTest.cs" />
     <Compile Include="VariablesTest.cs" />
   </ItemGroup>
   <ItemGroup>
