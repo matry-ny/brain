@@ -55,6 +55,8 @@
     <Compile Include="EnumTest.cs" />
     <Compile Include="StructuresTest.cs" />
     <Compile Include="NullableTest.cs" />
+    <Compile Include="LiteralsTest.cs" />
+    <Compile Include="TypeConversionsTest.cs" />
     <Compile Include="VariablesTest.cs" />
   </ItemGroup>
   <ItemGroup>
