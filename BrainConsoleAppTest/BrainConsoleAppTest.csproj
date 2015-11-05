@@ -60,6 +60,7 @@
     <Compile Include="OperatorsTest.cs" />
     <Compile Include="SwitchTest.cs" />
     <Compile Include="ArraysTest.cs" />
+    <Compile Include="ConvertTest.cs" />
     <Compile Include="VariablesTest.cs" />
   </ItemGroup>
   <ItemGroup>
