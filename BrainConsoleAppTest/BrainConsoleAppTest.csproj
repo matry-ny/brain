@@ -58,6 +58,8 @@
     <Compile Include="LiteralsTest.cs" />
     <Compile Include="TypeConversionsTest.cs" />
     <Compile Include="OperatorsTest.cs" />
+    <Compile Include="SwitchTest.cs" />
+    <Compile Include="ArraysTest.cs" />
     <Compile Include="VariablesTest.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -7,7 +7,8 @@ namespace BrainConsoleAppTest
     public enum Result
     {
         Sussess = 0,
-        Fail = 1
+        Fail = 1,
+        FailedSuccessfully = Sussess + Fail
     }
 
     [TestClass]
