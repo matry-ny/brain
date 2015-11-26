@@ -17,7 +17,7 @@ namespace BrainConsoleAppTest.OOP.ClassVsStruct
         }
         
         [TestMethod]
-        public void TestValues()
+        public void ValuesPropertyUpdatesPerformDifferentlyAcrossInstancesTest()
         {
             var initial = "Initial";
             var updated = "Updated";
