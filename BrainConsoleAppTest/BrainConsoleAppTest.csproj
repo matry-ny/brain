@@ -51,6 +51,10 @@
   </Choose>
   <ItemGroup>
     <Compile Include="MessagesTest.cs" />
+    <Compile Include="OOP\ClassVsStruct\ClassVsStructTest.cs" />
+    <Compile Include="OOP\Constructors\FamilyTest.cs" />
+    <Compile Include="OOP\GadgetTests.cs" />
+    <Compile Include="OOP\TabletTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="EnumTest.cs" />
     <Compile Include="StructuresTest.cs" />
@@ -61,6 +65,7 @@
     <Compile Include="SwitchTest.cs" />
     <Compile Include="ArraysTest.cs" />
     <Compile Include="ConvertTest.cs" />
+    <Compile Include="OOP\ClassesTests.cs" />
     <Compile Include="VariablesTest.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -69,6 +74,7 @@
       <Name>BrainConsoleApp</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

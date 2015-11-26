@@ -42,8 +42,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Messages.cs" />
+    <Compile Include="OOP\ClassVsStruct\AClass.cs" />
+    <Compile Include="OOP\ClassVsStruct\AStruct.cs" />
+    <Compile Include="OOP\Constructors\Child.cs" />
+    <Compile Include="OOP\Constructors\Grandson.cs" />
+    <Compile Include="OOP\Constructors\Parent.cs" />
+    <Compile Include="OOP\Gadget.cs" />
+    <Compile Include="OOP\Interfaces\IInterfaceDeclaration.cs" />
+    <Compile Include="OOP\Interfaces\InterfaceImplementation.cs" />
+    <Compile Include="OOP\Tablet.cs" />
+    <Compile Include="OOP\VideoPort.cs" />
+    <Compile Include="OOP\VideoPortsCollection.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SurrogateConsole.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
