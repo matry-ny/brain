@@ -44,6 +44,7 @@
     <Compile Include="Messages.cs" />
     <Compile Include="OOP\ClassVsStruct\AClass.cs" />
     <Compile Include="OOP\ClassVsStruct\AStruct.cs" />
+    <Compile Include="OOP\ClassVsStruct\IInterface.cs" />
     <Compile Include="OOP\Constructors\Child.cs" />
     <Compile Include="OOP\Constructors\Grandson.cs" />
     <Compile Include="OOP\Constructors\Parent.cs" />

@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using System;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using BrainConsoleApp.OOP.ClassVsStruct;
 
 namespace BrainConsoleAppTest.OOP.ClassVsStruct
@@ -61,6 +62,46 @@ namespace BrainConsoleAppTest.OOP.ClassVsStruct
             classInstance.Value = anotherStructInstance;
 
             Assert.AreEqual(updated, classInstance.Value.Name);
+        }
+
+        [TestMethod]
+        public void Test()
+        {
+            var initial = "Initial";
+            var updated = "Updated";
+
+            var classInstance = new AClass { Name = initial };
+            var structInstance = new AStruct { Name = initial };
+
+            var anotherClassInstance = (IInterface) classInstance;
+            var anotherStructInstance = (IInterface) structInstance;
+
+            anotherClassInstance.Name = updated;
+            anotherStructInstance.Name = updated;
+
+
+            Assert.AreEqual(initial, structInstance.Name);
+        }
+        
+        [TestMethod]
+        public void Test2()
+        {
+            var initial = "Initial";
+            var updated = "Updated";
+
+            var classInstance = new AClass { Name = initial };
+            var structInstance = new AStruct { Name = initial };
+
+            DoSomeEvil(classInstance, updated);
+            DoSomeEvil(structInstance, updated);
+
+            Assert.AreEqual(updated, classInstance.Name);
+            Assert.AreEqual(initial, structInstance.Name);
+        }
+
+        private void DoSomeEvil(IInterface instance, string message)
+        {
+            instance.Name = message;
         }
     }
 }
