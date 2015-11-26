@@ -41,5 +41,26 @@ namespace BrainConsoleAppTest.OOP.ClassVsStruct
             Assert.AreEqual(initial, enotherStructInstance.Name);
             Assert.AreEqual(updated, structInstance.Name);
         }
+        
+        [TestMethod]
+        public void AnotherValuePropagationExample()
+        {
+            var initial = "Initial";
+            var updated = "Updated";
+
+            var structInstance = new AStruct { Name = initial };
+            var classInstance = new AClass
+            {
+                Name = initial,
+                Value = structInstance
+            };
+
+            // update origins
+            var anotherStructInstance = classInstance.Value;
+            anotherStructInstance.Name = updated;
+            classInstance.Value = anotherStructInstance;
+
+            Assert.AreEqual(updated, classInstance.Value.Name);
+        }
     }
 }
