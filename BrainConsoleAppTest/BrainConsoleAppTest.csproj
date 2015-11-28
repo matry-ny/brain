@@ -54,6 +54,7 @@
     <Compile Include="OOP\ClassVsStruct\ClassVsStructTest.cs" />
     <Compile Include="OOP\Constructors\FamilyTest.cs" />
     <Compile Include="OOP\GadgetTests.cs" />
+    <Compile Include="OOP\Methods\StringFormatterTest.cs" />
     <Compile Include="OOP\TabletTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="EnumTest.cs" />
