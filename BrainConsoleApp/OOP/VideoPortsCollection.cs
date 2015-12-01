@@ -1,6 +1,9 @@
-﻿namespace BrainConsoleApp.OOP
+﻿using System.Collections;
+using System.Collections.Generic;
+
+namespace BrainConsoleApp.OOP
 {
-    public class VideoPortsCollection
+    public class VideoPortsCollection 
     {
         private readonly VideoPort[] _videoPorts;
 

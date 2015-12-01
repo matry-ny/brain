@@ -49,7 +49,7 @@ namespace BrainConsoleAppTest.OOP.Methods
             result = formatter.MakeIntegersLine("{0}");
             Assert.IsTrue(String.IsNullOrEmpty(result));
 
-            result = formatter.MakeIntegersLine("{0}", '|');
+            result = formatter.MakeIntegersLine("{0}", '|',  new int[0]);
             Assert.IsTrue(String.IsNullOrEmpty(result));
 
             result = formatter.MakeIntegersLine("{0}", integers: new []{0, 1, 2, 3});

@@ -55,6 +55,7 @@
     <Compile Include="OOP\Tablet.cs" />
     <Compile Include="OOP\VideoPort.cs" />
     <Compile Include="OOP\VideoPortsCollection.cs" />
+    <Compile Include="OOP\VideoPortsCollectionExtensions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SurrogateConsole.cs" />
