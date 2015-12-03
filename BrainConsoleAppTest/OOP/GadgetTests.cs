@@ -77,11 +77,5 @@ namespace BrainConsoleAppTest.OOP
             Assert.AreEqual(testGadget.VideoPorts[1], port2);
             Assert.AreEqual(testGadget.VideoPorts[2], port3);
         }
-
-        [TestMethod]
-        public void TestVideoPortsCollectionInitializer()
-        {
-            var collection = new VideoPortsCollection();
-        }
     }
 }

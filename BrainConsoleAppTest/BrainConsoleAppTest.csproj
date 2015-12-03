@@ -55,6 +55,7 @@
     <Compile Include="OOP\Constructors\FamilyTest.cs" />
     <Compile Include="OOP\GadgetTests.cs" />
     <Compile Include="OOP\Methods\StringFormatterTest.cs" />
+    <Compile Include="OOP\Operators\TemperatureTests.cs" />
     <Compile Include="OOP\TabletTests.cs" />
     <Compile Include="OOP\VideoPortsCollectionExtensionsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

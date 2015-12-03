@@ -52,6 +52,9 @@
     <Compile Include="OOP\Interfaces\IInterfaceDeclaration.cs" />
     <Compile Include="OOP\Interfaces\InterfaceImplementation.cs" />
     <Compile Include="OOP\Methods\StringFormatter.cs" />
+    <Compile Include="OOP\Operators\Temperature.cs" />
+    <Compile Include="OOP\Operators\TemperatureConversions.cs" />
+    <Compile Include="OOP\Operators\Units.cs" />
     <Compile Include="OOP\Tablet.cs" />
     <Compile Include="OOP\VideoPort.cs" />
     <Compile Include="OOP\VideoPortsCollection.cs" />
