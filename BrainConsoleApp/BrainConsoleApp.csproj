@@ -51,7 +51,11 @@
     <Compile Include="OOP\Gadget.cs" />
     <Compile Include="OOP\Interfaces\IInterfaceDeclaration.cs" />
     <Compile Include="OOP\Interfaces\InterfaceImplementation.cs" />
+    <Compile Include="OOP\IntheritanceInvestigations\Apple.cs" />
+    <Compile Include="OOP\IntheritanceInvestigations\Fruit.cs" />
+    <Compile Include="OOP\IntheritanceInvestigations\FruitColor.cs" />
     <Compile Include="OOP\Methods\StringFormatter.cs" />
+    <Compile Include="OOP\NestedClasses\ClassDefinition.cs" />
     <Compile Include="OOP\Operators\Temperature.cs" />
     <Compile Include="OOP\Operators\TemperatureConversions.cs" />
     <Compile Include="OOP\Operators\Units.cs" />
