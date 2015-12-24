@@ -35,6 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
   </ItemGroup>
   <Choose>
@@ -53,6 +54,12 @@
     <Compile Include="MessagesTest.cs" />
     <Compile Include="OOP\ClassVsStruct\ClassVsStructTest.cs" />
     <Compile Include="OOP\Constructors\FamilyTest.cs" />
+    <Compile Include="OOP\DynamicInvestigations\DynamicTests.cs" />
+    <Compile Include="OOP\Enumerables\EnumerableTests.cs" />
+    <Compile Include="OOP\Events\EventTests.cs" />
+    <Compile Include="OOP\Events\ToasterTests.cs" />
+    <Compile Include="OOP\Exceptions\ExceptionTests.cs" />
+    <Compile Include="OOP\Exceptions\ArithmeticExceptionTests.cs" />
     <Compile Include="OOP\GadgetTests.cs" />
     <Compile Include="OOP\IntheritanceInvestigations\FruitTestCases.cs" />
     <Compile Include="OOP\IntheritanceInvestigations\AppleTests.cs" />

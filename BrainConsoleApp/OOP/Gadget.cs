@@ -14,9 +14,15 @@ namespace BrainConsoleApp.OOP
             get { return _videoPorts; }
         }
 
-        private readonly string _model;
+        public string Serial
+        {
+            get { return _serial; }
+        }
 
-        private readonly VideoPortsCollection _videoPorts; 
+        private readonly string _model;
+        private readonly string _serial;
+
+        private VideoPortsCollection _videoPorts; 
 
         /// <summary>
         /// Constructor with default params
@@ -30,10 +36,11 @@ namespace BrainConsoleApp.OOP
         /// </summary>
         /// <param name="model"></param>
         /// <param name="videoPorts"></param>
-        public Gadget(string model, VideoPort[] videoPorts)
+        public Gadget(string model, VideoPort[] videoPorts, string serial = "000-00-00")
         {
             _videoPorts = new VideoPortsCollection(videoPorts);
             _model = model;
+            _serial = serial;
         }
 
         public string GetModel()
@@ -49,6 +56,42 @@ namespace BrainConsoleApp.OOP
         public string GetDescription()
         {
             return GetDescription(DescriptionFormat);
+        }
+
+        protected bool Equals(Gadget other)
+        {
+            return string.Equals(_serial, other._serial);
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (ReferenceEquals(null, obj)) return false;
+            if (ReferenceEquals(this, obj)) return true;
+            if (obj.GetType() != this.GetType()) return false;
+            return Equals((Gadget) obj);
+        }
+
+        public override int GetHashCode()
+        {
+            return (_serial != null ? _serial.GetHashCode() : 0);
+        }
+
+        public static bool operator ==(Gadget left, Gadget right)
+        {
+            return Equals(left, right);
+        }
+
+        public static bool operator !=(Gadget left, Gadget right)
+        {
+            return !Equals(left, right);
+        }
+
+        public Gadget Clone()
+        {
+            var copy = (Gadget)MemberwiseClone();
+            copy._videoPorts = this._videoPorts.Clone();
+
+            return copy;
         }
     }
 }

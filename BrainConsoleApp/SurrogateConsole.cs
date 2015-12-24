@@ -15,5 +15,10 @@ namespace BrainConsoleApp
         {
             _strings.Add(line);
         }
+
+        public void Clear()
+        {
+            _strings.Clear();
+        }
     }
 }

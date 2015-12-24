@@ -1,6 +1,6 @@
 D:\workspace\teach\c-sharp\BrainSolution\BrainConsoleApp\bin\Debug\BrainConsoleApp.exe.config
 D:\workspace\teach\c-sharp\BrainSolution\BrainConsoleApp\bin\Debug\BrainConsoleApp.exe
 D:\workspace\teach\c-sharp\BrainSolution\BrainConsoleApp\bin\Debug\BrainConsoleApp.pdb
-D:\workspace\teach\c-sharp\BrainSolution\BrainConsoleApp\obj\Debug\BrainConsoleApp.csprojResolveAssemblyReference.cache
 D:\workspace\teach\c-sharp\BrainSolution\BrainConsoleApp\obj\Debug\BrainConsoleApp.exe
 D:\workspace\teach\c-sharp\BrainSolution\BrainConsoleApp\obj\Debug\BrainConsoleApp.pdb
+D:\workspace\teach\c-sharp\BrainSolution\BrainConsoleApp\obj\Debug\BrainConsoleApp.csprojResolveAssemblyReference.cache

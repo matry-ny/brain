@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace BrainConsoleApp.OOP
 {
@@ -20,6 +21,11 @@ namespace BrainConsoleApp.OOP
         public VideoPort this[int index]
         {
             get { return _videoPorts[index]; }
+        }
+
+        public VideoPortsCollection Clone()
+        {
+            return new VideoPortsCollection(_videoPorts.ToArray());
         }
     }
 }

@@ -4,7 +4,12 @@
     {
         public Grandson(SurrogateConsole console) : base(console)
         {
-            console.WriteLine(typeof(Grandson).Name);
+            Console.WriteLine(typeof(Grandson).Name);
+        }
+
+        public override void PrintMessage()
+        {
+            Console.WriteLine(typeof(Grandson).Name);
         }
     }
 }

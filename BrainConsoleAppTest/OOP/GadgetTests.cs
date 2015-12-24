@@ -77,5 +77,36 @@ namespace BrainConsoleAppTest.OOP
             Assert.AreEqual(testGadget.VideoPorts[1], port2);
             Assert.AreEqual(testGadget.VideoPorts[2], port3);
         }
+
+        [TestMethod]
+        public void EqualityBySerialNumberTest()
+        {
+            var serial = "111-22-33";
+            var gadget1 = new Gadget("A", new VideoPort[0], serial);
+            var gadget2 = new Gadget("A", new VideoPort[0], serial);
+
+            // Assert
+            Assert.AreEqual(gadget1, gadget2);
+            Assert.AreNotSame(gadget1, gadget2);
+        }
+
+        [TestMethod]
+        public void GadgetClonedProperlyTest()
+        {
+            var videoPort = new VideoPort
+            {
+                Name = "VGA"
+            };
+            var sut = new Gadget("Model", new []{videoPort});
+
+            var copy = sut.Clone();
+
+            Assert.AreEqual(sut.GetModel(), copy.GetModel());
+            Assert.AreEqual(sut.Serial, copy.Serial);
+            Assert.AreEqual(sut.Title, copy.Title);
+            
+            
+            Assert.AreNotSame(sut.VideoPorts, copy.VideoPorts);
+        }
     }
 }

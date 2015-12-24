@@ -10,13 +10,13 @@ namespace BrainConsoleAppTest.OOP.IntheritanceInvestigations
         [TestMethod]
         public void TestAppleExpiration()
         {
-            var apple = new Apple(FruitColor.Green);
+            var apple = new Apple(AppleColorPalette.Good);
 
             // common Fruit assert
             apple.CheckExpirationContract();
 
             // custom Fruit Assert
-            Assert.AreEqual(FruitColor.Brown, apple.Color);
+            Assert.AreEqual(AppleColorPalette.Expired, apple.Color);
         }
     }
 }

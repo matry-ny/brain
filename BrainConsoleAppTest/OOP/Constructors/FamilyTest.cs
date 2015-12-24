@@ -10,18 +10,36 @@ namespace BrainConsoleAppTest.OOP.Constructors
         [TestMethod]
         public void ConstructorsLoadingTest()
         {
-            var console = new SurrogateConsole();
+            SurrogateConsole console = new SurrogateConsole();
 
             // act
-            var data = new Grandson(console);
+            Grandson data = new Grandson(console);
             
             // assert
-            var log = console.GetStrings();
+            string[] log = console.GetStrings();
             Assert.AreEqual(3, log.Length);
 
             Assert.AreEqual(typeof(Parent).Name, log[0]);
             Assert.AreEqual(typeof(Child).Name, log[1]);
             Assert.AreEqual(typeof(Grandson).Name, log[2]);
+        }
+        
+        [TestMethod]
+        public void PrintMessageTest()
+        {
+            SurrogateConsole console = new SurrogateConsole();
+
+            // act
+            Child data = new Grandson(console);
+            console.Clear();;
+            
+            data.PrintMessage();
+            
+            // assert
+            string[] log = console.GetStrings();
+            Assert.AreEqual(1, log.Length);
+            Assert.AreEqual(typeof(Grandson).Name, log[0]);
+
         }
     }
 }
